@@ -1,0 +1,228 @@
+{
+  "split_mode": "official",
+  "num_images": 7361,
+  "skipped": {
+    "image_unreadable": 1,
+    "no_valid_boxes": 1
+  },
+  "annotation_issues": {
+    "clipped": 50
+  },
+  "conditions": {
+    "Low": {
+      "train": 51,
+      "val": 56,
+      "test": 134,
+      "test_instances": 188,
+      "test_instances_per_class": {
+        "Bicycle": 2,
+        "People": 37,
+        "Boat": 4,
+        "Bottle": 12,
+        "Table": 5,
+        "Car": 9,
+        "Cat": 55,
+        "Chair": 19,
+        "Cup": 9,
+        "Dog": 34,
+        "Motorbike": 2
+      },
+      "mean_luminance": 9.055488374223353,
+      "std_luminance": 6.108091892543624,
+      "test_mean_luminance": 9.042079480726327
+    },
+    "Ambient": {
+      "train": 716,
+      "val": 457,
+      "test": 925,
+      "test_instances": 1890,
+      "test_instances_per_class": {
+        "Bicycle": 75,
+        "People": 429,
+        "Car": 106,
+        "Chair": 193,
+        "Cat": 253,
+        "Motorbike": 49,
+        "Bus": 14,
+        "Dog": 290,
+        "Boat": 76,
+        "Bottle": 201,
+        "Cup": 118,
+        "Table": 86
+      },
+      "mean_luminance": 30.862203540690633,
+      "std_luminance": 18.58758918808561,
+      "test_mean_luminance": 27.606576084961763
+    },
+    "Object": {
+      "train": 235,
+      "val": 119,
+      "test": 144,
+      "test_instances": 522,
+      "test_instances_per_class": {
+        "Bicycle": 66,
+        "People": 231,
+        "Chair": 32,
+        "Car": 19,
+        "Boat": 4,
+        "Bottle": 49,
+        "Cup": 19,
+        "Dog": 59,
+        "Table": 7,
+        "Bus": 8,
+        "Cat": 20,
+        "Motorbike": 8
+      },
+      "mean_luminance": 40.199797127620286,
+      "std_luminance": 21.889165727513113,
+      "test_mean_luminance": 36.97640671498246
+    },
+    "Single": {
+      "train": 315,
+      "val": 191,
+      "test": 255,
+      "test_instances": 619,
+      "test_instances_per_class": {
+        "Bicycle": 24,
+        "Car": 61,
+        "People": 192,
+        "Chair": 74,
+        "Boat": 25,
+        "Bottle": 52,
+        "Cup": 60,
+        "Table": 43,
+        "Dog": 30,
+        "Bus": 5,
+        "Cat": 26,
+        "Motorbike": 27
+      },
+      "mean_luminance": 34.26977638440126,
+      "std_luminance": 19.58914242613963,
+      "test_mean_luminance": 31.06825479806638
+    },
+    "Weak": {
+      "train": 298,
+      "val": 175,
+      "test": 232,
+      "test_instances": 892,
+      "test_instances_per_class": {
+        "Bicycle": 33,
+        "People": 298,
+        "Car": 99,
+        "Boat": 49,
+        "Bottle": 69,
+        "Cup": 77,
+        "Table": 73,
+        "Chair": 80,
+        "Bus": 37,
+        "Motorbike": 28,
+        "Cat": 27,
+        "Dog": 22
+      },
+      "mean_luminance": 23.028455586467228,
+      "std_luminance": 12.732457413841757,
+      "test_mean_luminance": 20.764950323721457
+    },
+    "Strong": {
+      "train": 999,
+      "val": 522,
+      "test": 537,
+      "test_instances": 2177,
+      "test_instances_per_class": {
+        "Bicycle": 202,
+        "Car": 564,
+        "Boat": 173,
+        "People": 792,
+        "Chair": 102,
+        "Motorbike": 121,
+        "Bus": 90,
+        "Cat": 19,
+        "Bottle": 26,
+        "Cup": 28,
+        "Table": 34,
+        "Dog": 26
+      },
+      "mean_luminance": 41.44360585277583,
+      "std_luminance": 17.126081722261624,
+      "test_mean_luminance": 39.222145044159845
+    },
+    "Screen": {
+      "train": 69,
+      "val": 68,
+      "test": 28,
+      "test_instances": 84,
+      "test_instances_per_class": {
+        "Bottle": 14,
+        "Table": 21,
+        "Cup": 16,
+        "People": 14,
+        "Chair": 17,
+        "Bus": 1,
+        "Dog": 1
+      },
+      "mean_luminance": 41.91586768699415,
+      "std_luminance": 19.5142415787001,
+      "test_mean_luminance": 37.6517573424748
+    },
+    "Window": {
+      "train": 141,
+      "val": 103,
+      "test": 119,
+      "test_instances": 303,
+      "test_instances_per_class": {
+        "Bicycle": 4,
+        "Bottle": 9,
+        "People": 106,
+        "Table": 41,
+        "Cat": 21,
+        "Chair": 81,
+        "Cup": 29,
+        "Dog": 12
+      },
+      "mean_luminance": 49.923185390545974,
+      "std_luminance": 23.188165935052503,
+      "test_mean_luminance": 48.346303747481656
+    },
+    "Shadow": {
+      "train": 28,
+      "val": 14,
+      "test": 14,
+      "test_instances": 55,
+      "test_instances_per_class": {
+        "Bicycle": 3,
+        "People": 28,
+        "Car": 15,
+        "Boat": 4,
+        "Motorbike": 1,
+        "Cat": 1,
+        "Chair": 2,
+        "Dog": 1
+      },
+      "mean_luminance": 54.75394821166992,
+      "std_luminance": 30.348057513745097,
+      "test_mean_luminance": 57.805361475263325
+    },
+    "Twilight": {
+      "train": 147,
+      "val": 95,
+      "test": 174,
+      "test_instances": 372,
+      "test_instances_per_class": {
+        "Bicycle": 8,
+        "People": 98,
+        "Car": 45,
+        "Boat": 180,
+        "Bottle": 1,
+        "Bus": 9,
+        "Motorbike": 6,
+        "Cat": 3,
+        "Chair": 6,
+        "Dog": 15,
+        "Table": 1
+      },
+      "mean_luminance": 72.71240334098155,
+      "std_luminance": 25.46879568675943,
+      "test_mean_luminance": 73.47040478936557
+    }
+  }
+}
